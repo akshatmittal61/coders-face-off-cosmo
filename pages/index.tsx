@@ -1,5 +1,11 @@
 import React from "react";
-import { Communities, Companies, Features, Hero } from "@/components/Home";
+import {
+	Communities,
+	Companies,
+	Features,
+	Hero,
+	Join,
+} from "@/components/Home";
 import { stylesConfig } from "@/utils/functions";
 import styles from "@/styles/Home.module.scss";
 
@@ -12,6 +18,7 @@ const HomePage: React.FC = () => {
 			<Companies />
 			<Communities />
 			<Features />
+			<Join />
 		</main>
 	);
 };
