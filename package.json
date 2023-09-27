@@ -12,7 +12,8 @@
 		"prepare": "husky install",
 		"test": "jest --passWithNoTests",
 		"test:watch": "jest --watch --passWithNoTests",
-		"test:coverage": "jest --coverage --passWithNoTests"
+		"test:coverage": "jest --coverage --passWithNoTests",
+		"commitlint": "commitlint -e $GIT_PARAMS"
 	},
 	"dependencies": {
 		"@types/jsonwebtoken": "^9.0.2",
