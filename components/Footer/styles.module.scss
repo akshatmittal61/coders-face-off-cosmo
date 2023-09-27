@@ -1,0 +1,48 @@
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 80px;
+	padding: 80px 120px;
+	color: var(--theme-black);
+
+	&-top {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&-logo {
+		object-fit: contain;
+		width: 120px;
+		height: auto;
+	}
+
+	&-center,
+	&-right {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 48px;
+
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+
+	&-bottom {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		a {
+			text-decoration: underline;
+			color: inherit;
+		}
+	}
+}
