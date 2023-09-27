@@ -202,3 +202,24 @@ export const communites: {
 			"Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.",
 	},
 ];
+
+export const features: {
+	title: string;
+	content: string;
+}[] = [
+	{
+		title: "Online free courses and tutorials",
+		content:
+			"Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.",
+	},
+	{
+		title: "Resources for teachers and educators",
+		content:
+			"Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.",
+	},
+	{
+		title: "Book recommendations and reviews",
+		content:
+			"Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.",
+	},
+];
